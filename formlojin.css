@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/bg5.gif');
+}
+
+.container {
+    width: 900px;
+    height: 520px;
+    background-color: #1e1b4b; 
+    border-radius: 16px;
+    box-shadow: 0 10px 25px black;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.table-form {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55%;
+    height: 100%;
+    background-color: rgb(53, 52, 52); 
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-spacing: 0;
+}
+
+.table-form tr {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.table-form td {
+    display: block;
+}
+
+.ini-teks{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 20px;
+    max-width: 200px;
+}
+
+/* IKI INPUT  */
+.table-form input[type="text"],
+.table-form button {
+    width: 100%;
+    height: 42px;
+    background-color: #e2e8f0; 
+    border: none;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+
+p {
+    color: white;
+}
+
+
+label {
+    color: white;
+}
+
+.table-form input[type="text"]::placeholder {
+    color: #888;
+}
+
+/* Tombol Daftar */
+.table-form button {
+    background-color: rgb(126, 37, 4);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+        box-shadow: 0 10px 25px black;
+
+}
+
+.table-form button:hover {
+    background-color: orange;
+}
+
+.pesan {
+    color: white;
+    font-size: 14px;
+    margin-top: 60px;
+    text-align: center;
+    background:  rgb(53, 52, 52);
+    height: 200px;
+    width: 250px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 0 10px 25px black;
+    margin-left: 100px;
+}
+
+.ini-teks {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    max-width: 200px;
+}

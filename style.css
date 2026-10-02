@@ -1,0 +1,270 @@
+body {
+    height: 1600px;
+    background-color: #e3e3e7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #161b33; 
+    height: 70px;    
+    width: 1400px;         
+    display: flex;            
+    align-items: center;     
+    justify-content: flex-start; 
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+header .logo {
+    text-decoration: none;   
+}
+
+header .logo p {
+    color: white;             
+    font-size: 20px;        
+    font-weight: bold;      
+    margin: 0;    
+    margin-left: 30px;  
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* KESELURUHAN */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    margin-top: 25px;
+}
+
+.main-container {
+    max-width: 1500px;
+    margin: 0 ;
+}
+
+
+/* INI BAGIAN TEKS */
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 50px;
+    color: #1b1c3a;
+    font-weight: 800;
+    line-height: 1.25;
+    max-width: 400px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    text-shadow: 0px 3px 5px grey;
+}
+
+.font1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inip {
+    font-size: 1rem;
+    max-width: 300px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+.btn-benefit {
+    display: inline-block;
+    background-color: #39527B;
+    color: white;
+    padding: 0.8rem 2.2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    box-shadow: 0 4px 10px rgba(23, 24, 51, 0.2);
+     max-width: 400px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+/* INIII BAGIAN KARTU KANAN*/
+.hero-right {
+    width: 900px;     
+    height: 500px;     
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    overflow: hidden;
+    margin-right: 50px;
+    box-shadow: 0px 8px 10px black;
+    margin-top: 40px;
+
+}
+
+.daftar {
+    text-decoration: none;
+    color: white;
+}
+.card-content-side {
+    flex: 1.1;
+    padding: 2.5rem 2rem;
+}
+
+.card-content-side h2 {
+    font-size: 40px;
+    color: #171833;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+}
+
+.card-content-side p {
+    font-size: 16px;
+    color: #555770;
+    margin-bottom: 10px;
+}
+
+.line-bar {
+    background-color:#1b1c3a;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;     
+    justify-content: flex-start;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.line-bar:hover {
+   background-color: #1a1c5e;
+}
+
+.card-image-side {
+    flex: 0.8;
+    background-color: #2b2d54;
+}
+
+/* INI MENTORRRR*/
+.mentor-section {
+    text-align: center;
+}
+
+.mentor-grid {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 430px;
+    gap: 30px;
+}
+
+.mentor-item {
+    background-color: transparent;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    color: #333;
+}
+
+/* BENEFIT */
+
+.background{
+    margin-top: 87px;
+    background-color: white;
+    height: 350px;
+}
+
+.benefit-grid {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px; 
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.benefit-card {
+    width: 362px;
+    height: 344px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px; 
+}
+
+.benefit-card h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e1b4b; 
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.benefit-card p {
+    font-size: 13px;
+    color: #4b5563;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* TESTIMONI*/
+
+.aduh {
+    margin-top: 20px;
+}
+
+.carousel {
+    margin-top: 70px;
+    width: 100%;
+    border: 2px solid aliceblue;
+    display: flex;
+    overflow-x: auto;
+    gap: 1em;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 50s infinite linear;
+}
+
+.a-testi{
+    max-width: 200px;
+}
+
+.title-testi {
+    font-size:60px;
+    margin-left: 270px;
+    text-shadow: 0px 3px 5px grey;
+}
+
+.isicard {
+    flex: 0 0 300px;
+    height: 300px;
+    padding: 1em;
+    color: white;
+    background: #39527B;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0px 4px 5px black;
+}
+
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
+}
